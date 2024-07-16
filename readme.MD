@@ -51,34 +51,35 @@ tensorboard --logdir=./results/<train_id>
 ## Evaluation
 After the finetuning, 5 sample scripts in the validation set will be used to run an evaluation step. Then the original text, reference summary (ground truth) and generated summary of the sample scripts will be printed on console to be used for preforming human evaluation on the finetuned model.
 
-Examples:
+Example 1:
 ##### Original Text: 
-Emma: I’ve just fallen in love with this advent calendar! Awesome! I wanna one for my kids!
-Rob: I used to get one every year as a child! Loved them! 
-Emma: Yeah, i remember! they were filled with chocolates!
-Lauren: they are different these days! much more sophisticated! Haha!
+Emma: I’ve just fallen in love with this advent calendar! Awesome! I wanna one for my kids!  
+Rob: I used to get one every year as a child! Loved them!  
+Emma: Yeah, i remember! they were filled with chocolates!  
+Lauren: they are different these days! much more sophisticated! Haha!  
 Rob: yeah, they can be fabric/ wooden, shop bought/ homemade, filled with various stuff
-Emma: what do you fit inside?
-Lauren: small toys, Christmas decorations, creative stuff, hair bands & clips, stickers, pencils & rubbers, small puzzles, sweets
-Emma: WOW! That’s brill! X
-Lauren: i add one more very special thing as well- little notes asking my children to do something nice for someone else
-Rob: i like that! My sister adds notes asking her kids questions about christmas such as What did the 3 wise men bring? etc
-Lauren: i reckon it prepares them for Christmas 
-Emma: and makes it more about traditions and being kind to other people
-Lauren: my children get very excited every time they get one!
-Emma: i can see why! :)
+Emma: what do you fit inside?  
+Lauren: small toys, Christmas decorations, creative stuff, hair bands & clips, stickers, pencils & rubbers, small puzzles, sweets  
+Emma: WOW! That’s brill! X  
+Lauren: i add one more very special thing as well- little notes asking my children to do something nice for someone else  
+Rob: i like that! My sister adds notes asking her kids questions about christmas such as What did the 3 wise men bring? etc  
+Lauren: i reckon it prepares them for Christmas   
+Emma: and makes it more about traditions and being kind to other people  
+Lauren: my children get very excited every time they get one!  
+Emma: i can see why! :)  
 ##### Reference Summary:
 Emma and Rob love the advent calendar. Lauren fits inside calendar various items, for instance, small toys and Christmas decorations. Her children are excited whenever they get the calendar.
 ##### Generated Summary:
 Emma loves the advent calendar. Rob used to get one every year as a child. Emma would like to buy one for her kids. Rob's sister asks her kids questions about Christmas. Lauren's children get very excited every time they get one.
 
+Example 2:  
 ##### Original Text:
-Robert: Hey give me the address of this music shop you mentioned before
-Robert: I have to buy guitar cable
-Fred: <file_other>
-Fred: Catch it on google maps
-Robert: thx m8
-Fred: ur welcome
+Robert: Hey give me the address of this music shop you mentioned before  
+Robert: I have to buy guitar cable  
+Fred: <file_other>  
+Fred: Catch it on google maps  
+Robert: thx m8  
+Fred: ur welcome  
 ##### Reference Summary:
 Robert wants Fred to send him the address of the music shop as he needs to buy guitar cable.
 ##### Generated Summary:
