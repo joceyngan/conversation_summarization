@@ -31,6 +31,8 @@ BART is a sequence-to-sequence model which is very suitable for downstream task 
 
 
 ## Usage
+Default is using original BART model on huggingface without finetuning. If already have finetuned model, uncomment the line 11-13 "Using self finetuned bart-large-cnn on samsum dataset" in ```model.py```, replace the path to model to your own path before the following steps. and comment out line 7-8 of the part "Using original pre-trained facebook/bart-large-cnn" 
+
 1. Starting the server.
 ```bash
  python app.py
