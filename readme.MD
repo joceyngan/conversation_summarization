@@ -67,5 +67,5 @@ As generative LLMs is getting more and more popular, the concept of conversation
 
 
 ## Resources
-1. Text sample used in above demo [source] (https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf)
-2. SAMSum Corpus dataset on HuggingFace used in finetuning [source] (https://huggingface.co/datasets/Samsung/samsum)
+1. Text sample used in above demo [source](#https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf)
+2. SAMSum Corpus dataset on HuggingFace used in finetuning [source](#https://huggingface.co/datasets/Samsung/samsum)
