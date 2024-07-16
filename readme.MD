@@ -4,7 +4,7 @@
 This is a simple conversation summarization system that user can interact from a web frontend. There are 3 major parts included in this repository: frontend, API and model fine-tuning.
 
 #### Why BART?
-BART is a sequence-to-sequence model which is very suitable for downstream task that needs to output a sequence of tokens like summarization and creating new, coherent output text. Unlike BERT which is trained for understanding text and extracting the contextual embeddings. Besides, traditional algorithms like TextRank and SumBasic algorithms preform extractive summarization on imput text which are proned to copy the phases directly from input and creating less satisfied result.
+BART is a sequence-to-sequence model which is very suitable for downstream task that needs to output a sequence of tokens like summarization and creating new, coherent output text. Unlike BERT which is trained for understanding text and extracting the contextual embeddings. Besides, traditional algorithms like TextRank and SumBasic algorithms preform extractive summarization on input text which are proned to copy the phases directly from input and creating less satisfied result.
 
 ## Table of Contents
 - [Installation](#installation)
