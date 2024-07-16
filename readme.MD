@@ -14,6 +14,7 @@ BART is a sequence-to-sequence model which is very suitable for downstream task 
 - [Samples](#samples)
 - [Future-Developments](#future-developments)
 - [Resources](#resources)
+- [References](#references)
 
 
 ## Installation
@@ -114,3 +115,8 @@ As generative LLMs is getting more and more popular, the concept of conversation
 ## Resources
 1. Text sample used in above demo [source](https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf)
 2. SAMSum Corpus dataset on HuggingFace used in finetuning [source](https://huggingface.co/datasets/Samsung/samsum)
+3. Model finetuned using SAMSum dataset [source](https://huggingface.co/jngan/bart-large-cnn-samsum/)
+
+## References
+1. NLP Text Summarization – Popular Machine Learning And Deep Learning Algorithms [link](https://spotintelligence.com/2022/12/01/nlp-text-summarization/#1_PageRank_Algorithm)
+2. BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension [link](https://research.facebook.com/publications/bart-denoising-sequence-to-sequence-pre-training-for-natural-language-generation-translation-and-comprehension/)
