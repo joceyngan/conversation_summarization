@@ -50,10 +50,10 @@ tensorboard --logdir=./results/<train_id>
 ## Samples
 
 1. Result using original pre-train bart-large-cnn through the web frontend
-![Image of the result using original pre-train bart-large-cnn](#https://github.com/joceyngan/conversation_summarization/blob/master/sample_results/original-bart-large-cnn-result.png?raw=true)
+![Image of the result using original pre-train bart-large-cnn](https://github.com/joceyngan/conversation_summarization/blob/master/sample_results/original-bart-large-cnn-result.png?raw=true)
 
 2. Result using pre-train bart-large-cnn fine-tuned on SAMsum dataset through the web frontend
-![Image of the result using bart-large-cnn finetuned on SAMsum dataset](#https://github.com/joceyngan/conversation_summarization/blob/master/sample_results/finetuned-bart-large-cnn-samsum-result.png?raw=true)
+![Image of the result using bart-large-cnn finetuned on SAMsum dataset](https://github.com/joceyngan/conversation_summarization/blob/master/sample_results/finetuned-bart-large-cnn-samsum-result.png?raw=true)
 
 ## Future-Developments
 ### A glimpse on above results:
